@@ -1,0 +1,66 @@
+#products {
+    padding: 20px;
+}
+
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.filters input[type="text"],
+.filters select {
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 180px;
+}
+
+.filters input[type="text"]:focus,
+.filters select:focus {
+    box-shadow: 0 0 5px rgba(100, 150, 255, 0.5);
+}
+
+.filters input[type="text"]:focus,
+.filters select:focus,
+.filters input[type="text"]:hover,
+.filters select:hover {
+    box-shadow: 0 0 5px rgba(100, 150, 255, 0.5);
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    .filters {
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .filters input[type="text"],
+    .filters select {
+        max-width: 220px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .filters input[type="text"],
+    .filters select {
+        max-width: 150px;
+        font-size: 0.85em;
+    }
+}

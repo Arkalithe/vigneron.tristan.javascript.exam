@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "nom_produit": "CamPro X100",
+    "descriptif": "Appareil photo compact avec capteur haute résolution pour amateurs de photographie.",
+    "caracteristiques": {
+      "résolution": "24 MP",
+      "zoom": "Optique 5x",
+      "connectivité": "Wi-Fi, Bluetooth",
+      "écran": "3 pouces"
+    },
+    "prix": "299.99 €",
+    "images": ["images/camera1.jpg", "images/camera5.jpg", "images/camera9.jpg"]
+  },
+  {
+    "id": 2,
+    "nom_produit": "Nikon Explorer Z5",
+    "descriptif": "Reflex numérique avancé avec une excellente qualité d'image et des performances rapides.",
+    "caracteristiques": {
+      "résolution": "30 MP",
+      "zoom": "Optique 10x",
+      "connectivité": "Wi-Fi",
+      "écran": "3.5 pouces tactile"
+    },
+    "prix": "999.99 €",
+    "images": ["images/camera2.jpg", "images/camera6.jpg", "images/camera10.jpg"]
+  },
+  {
+    "id": 3,
+    "nom_produit": "Canon ProShot 9000",
+    "descriptif": "Appareil photo DSLR idéal pour les professionnels cherchant des performances de haute qualité.",
+    "caracteristiques": {
+      "résolution": "45 MP",
+      "zoom": "Optique 12x",
+      "connectivité": "Wi-Fi, NFC",
+      "écran": "3 pouces rotatif"
+    },
+    "prix": "1599.99 €",
+    "images": ["images/camera3.jpg", "images/camera7.jpg", "images/camera11.jpg"]
+  },
+  {
+    "id": 4,
+    "nom_produit": "Sony Alpha 7",
+    "descriptif": "Appareil hybride léger avec capteur plein format et performances exceptionnelles en faible lumière.",
+    "caracteristiques": {
+      "résolution": "33 MP",
+      "zoom": "Numérique 8x",
+      "connectivité": "Wi-Fi, USB-C",
+      "écran": "3.2 pouces"
+    },
+    "prix": "2199.99 €",
+    "images": ["images/camera4.jpg", "images/camera8.jpg", "images/camera12.jpg"]
+  },
+  {
+    "id": 5,
+    "nom_produit": "Olympus Vision X300",
+    "descriptif": "Appareil tout-terrain avec résistance à l'eau et à la poussière, idéal pour les aventures en plein air.",
+    "caracteristiques": {
+      "résolution": "20 MP",
+      "zoom": "Optique 4x",
+      "connectivité": "Wi-Fi, GPS",
+      "écran": "3 pouces"
+    },
+    "prix": "499.99 €",
+    "images": ["images/camera5.jpg", "images/camera13.jpg", "images/camera9.jpg"]
+  },
+  {
+    "id": 6,
+    "nom_produit": "Fujifilm Retro X",
+    "descriptif": "Appareil au look vintage avec les technologies modernes de traitement d'image.",
+    "caracteristiques": {
+      "résolution": "16 MP",
+      "zoom": "Optique 6x",
+      "connectivité": "Wi-Fi",
+      "écran": "3 pouces fixe"
+    },
+    "prix": "399.99 €",
+    "images": ["images/camera6.jpg", "images/camera14.jpg", "images/camera18.jpg"]
+  },
+  {
+    "id": 7,
+    "nom_produit": "Leica Capture Pro",
+    "descriptif": "Appareil photo haut de gamme avec une qualité d'image exceptionnelle pour les passionnés.",
+    "caracteristiques": {
+      "résolution": "40 MP",
+      "zoom": "Optique 5x",
+      "connectivité": "Wi-Fi, Bluetooth",
+      "écran": "3.2 pouces"
+    },
+    "prix": "2999.99 €",
+    "images": ["images/camera7.jpg", "images/camera11.jpg", "images/camera17.jpg"]
+  },
+  {
+    "id": 8,
+    "nom_produit": "Pentax Explorer II",
+    "descriptif": "Appareil photo reflex robuste avec protection contre les intempéries, idéal pour les aventuriers.",
+    "caracteristiques": {
+      "résolution": "24 MP",
+      "zoom": "Optique 8x",
+      "connectivité": "Wi-Fi, USB-C",
+      "écran": "3 pouces"
+    },
+    "prix": "1299.99 €",
+    "images": ["images/camera8.jpg", "images/camera2.jpg", "images/camera14.jpg"]
+  },
+  {
+    "id": 9,
+    "nom_produit": "GoPro Adventure Hero",
+    "descriptif": "Caméra d'action compacte et résistante pour capturer toutes vos aventures extrêmes.",
+    "caracteristiques": {
+      "résolution": "12 MP",
+      "zoom": "Numérique 2x",
+      "connectivité": "Wi-Fi, Bluetooth",
+      "écran": "2 pouces tactile"
+    },
+    "prix": "399.99 €",
+    "images": ["images/camera9.jpg", "images/camera3.jpg", "images/camera15.jpg"]
+  },
+  {
+    "id": 10,
+    "nom_produit": "Polaroid Instant Snap",
+    "descriptif": "Appareil photo instantané pour imprimer vos souvenirs en un clic.",
+    "caracteristiques": {
+      "résolution": "10 MP",
+      "impression": "Instantanée",
+      "connectivité": "Aucune",
+      "écran": "Pas d'écran"
+    },
+    "prix": "99.99 €",
+    "images": ["images/camera10.jpg", "images/camera4.jpg", "images/camera16.jpg"]
+  },
+  {
+    "id": 11,
+    "nom_produit": "Panasonic Lumix GX8",
+    "descriptif": "Hybride performant pour les photographes amateurs à la recherche de flexibilité.",
+    "caracteristiques": {
+      "résolution": "20 MP",
+      "zoom": "Optique 4x",
+      "connectivité": "Wi-Fi, NFC",
+      "écran": "3 pouces rotatif"
+    },
+    "prix": "899.99 €",
+    "images": ["images/camera11.jpg", "images/camera7.jpg", "images/camera5.jpg"]
+  },
+  {
+    "id": 12,
+    "nom_produit": "Samsung SmartShot X1",
+    "descriptif": "Appareil photo intelligent avec connectivité étendue et synchronisation cloud.",
+    "caracteristiques": {
+      "résolution": "18 MP",
+      "zoom": "Numérique 6x",
+      "connectivité": "Wi-Fi, Cloud Sync",
+      "écran": "3.5 pouces"
+    },
+    "prix": "749.99 €",
+    "images": ["images/camera12.jpg", "images/camera6.jpg", "images/camera13.jpg"]
+  },
+  {
+    "id": 13,
+    "nom_produit": "Ricoh GR II",
+    "descriptif": "Compact haut de gamme avec capteur APS-C pour des photos de qualité professionnelle.",
+    "caracteristiques": {
+      "résolution": "24 MP",
+      "zoom": "Fixe",
+      "connectivité": "Wi-Fi, NFC",
+      "écran": "3 pouces"
+    },
+    "prix": "599.99 €",
+    "images": ["images/camera13.jpg", "images/camera8.jpg", "images/camera3.jpg"]
+  },
+  {
+    "id": 14,
+    "nom_produit": "Kodak EasyShare Max",
+    "descriptif": "Appareil photo simple d'utilisation pour des photos de qualité au quotidien.",
+    "caracteristiques": {
+      "résolution": "12 MP",
+      "zoom": "Optique 5x",
+      "connectivité": "USB",
+      "écran": "2.7 pouces"
+    },
+    "prix": "149.99 €",
+    "images": ["images/camera14.jpg", "images/camera2.jpg", "images/camera9.jpg"]
+  },
+  {
+    "id": 15,
+    "nom_produit": "Lumix Pro DMC-GH50",
+    "descriptif": "Hybride de haute qualité pour les professionnels de la vidéo et de la photographie.",
+    "caracteristiques": {
+      "résolution": "25 MP",
+      "zoom": "Optique 10x",
+      "connectivité": "Wi-Fi, Bluetooth",
+      "écran": "3.2 pouces"
+    },
+    "prix": "1699.99 €",
+    "images": ["images/camera15.jpg", "images/camera4.jpg", "images/camera11.jpg"]
+  },
+  {
+    "id": 16,
+    "nom_produit": "Lumix Pro DMC-GH25",
+    "descriptif": "Hybride de haute qualité pour les professionnels de la vidéo et de la photographie.",
+    "caracteristiques": {
+      "résolution": "25 MP",
+      "zoom": "Optique 10x",
+      "connectivité": "Wi-Fi, Bluetooth",
+      "écran": "3.2 pouces"
+    },
+    "prix": "1999.99 €",
+    "images": ["images/camera16.jpg", "images/camera1.jpg", "images/camera12.jpg"]
+  },
+  {
+    "id": 17,
+    "nom_produit": "Lumix Pro DMC-GH15",
+    "descriptif": "Hybride de haute qualité pour les professionnels de la vidéo et de la photographie.",
+    "caracteristiques": {
+      "résolution": "25 MP",
+      "zoom": "Optique 10x",
+      "connectivité": "Wi-Fi, Bluetooth",
+      "écran": "3.2 pouces"
+    },
+    "prix": "1399.99 €",
+    "images": ["images/camera17.jpg", "images/camera8.jpg", "images/camera5.jpg"]
+  },
+  {
+    "id": 18,
+    "nom_produit": "Lumix Pro DMC-GH35",
+    "descriptif": "Hybride de haute qualité pour les professionnels de la vidéo et de la photographie.",
+    "caracteristiques": {
+      "résolution": "25 MP",
+      "zoom": "Optique 10x",
+      "connectivité": "Wi-Fi, Bluetooth",
+      "écran": "3.2 pouces"
+    },
+    "prix": "1399.99 €",
+    "images": ["images/camera18.jpg", "images/camera6.jpg", "images/camera3.jpg"]
+  }
+]

@@ -1,0 +1,16 @@
+#featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+}

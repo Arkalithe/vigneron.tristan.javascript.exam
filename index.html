@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appareils Photo</title>
+    <link rel="stylesheet" href="./css/main.css" id="page-style">
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <a href="#accueil" onclick="chargerPage('accueil')">
+            <img src="images/logo.webp" alt="Logo" class="logo">
+        </a>
+        <p class="site-name">Instant Photo</p>
+    </div>
+    <nav>
+        <button  class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <ul>
+            <li><a href="#accueil" onclick="chargerPage('accueil')">Accueil</a></li>
+            <li><a href="#produits" onclick="chargerPage('produits')">Produits</a></li>
+            <li><a href="#panier" onclick="chargerPage('panier')">Panier</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="content"></main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>À propos de nous</h4>
+            <p>Instant Photo - votre solution pour capturer chaque instant avec les meilleurs appareils photo.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: support@instantphoto.com</p>
+            <p>Téléphone: 01 23 45 67 89</p>
+        </div>
+        <div class="footer-section">
+            <h4>Informations</h4>
+            <a href="#">Conditions générales</a>
+            <a href="#">Politique de confidentialité</a>
+            <a href="#">Mentions légales</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Instant Photo - Tous droits réservés</p>
+    </div>
+</footer>
+
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>
