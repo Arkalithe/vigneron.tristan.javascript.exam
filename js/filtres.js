@@ -21,7 +21,7 @@ export function appliquerFiltres(data, afficherListeProduits) {
             const prix = parseFloat(produit.prix.replace('€', '').trim());
             if (prixFiltre === 'low') return prix < 500;
             if (prixFiltre === 'medium') return prix >= 500 && prix <= 1000;
-            if (prixFiltre === 'high') return prix > 1000;7
+            if (prixFiltre === 'high') return prix > 1000;
         });
     }
 

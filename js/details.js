@@ -21,13 +21,16 @@ export async function afficherDetailProduit(container, produitId, navigateBack) 
             </div>
             <p><strong>Description:</strong> ${produit.descriptif}</p>
             <p><strong>Prix:</strong> ${produit.prix}</p>
+            <div class="cardbis">
             <h3>Caractéristiques Techniques</h3>
-            <ul>
-                <li><strong>Résolution:</strong> ${produit.caracteristiques.résolution}</li>
-                <li><strong>Zoom:</strong> ${produit.caracteristiques.zoom}</li>
-                <li><strong>Connectivité:</strong> ${produit.caracteristiques.connectivité}</li>
-                <li><strong>Écran:</strong> ${produit.caracteristiques.écran}</li>
-            </ul>
+                <ul>
+                    <li><strong>Résolution:</strong> ${produit.caracteristiques.résolution}</li>
+                    <li><strong>Zoom:</strong> ${produit.caracteristiques.zoom}</li>
+                    <li><strong>Connectivité:</strong> ${produit.caracteristiques.connectivité}</li>
+                    <li><strong>Écran:</strong> ${produit.caracteristiques.écran}</li>
+                </ul>
+            </div>
+
         
             <button id="add-to-cart">Ajouter au panier</button>
         </section>
