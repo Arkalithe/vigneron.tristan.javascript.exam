@@ -11,6 +11,7 @@ export function afficherPanier(container) {
     `;
     chargerPanier();
 
+    // Gestion de l'événement pour le bouton de commande
     document.getElementById('checkout').addEventListener('click', () => {
         const cartItems = JSON.parse(localStorage.getItem('panier')) || [];
         if (cartItems.length === 0) {
@@ -57,17 +58,19 @@ function chargerPanier() {
     localStorage.setItem('panier', JSON.stringify(cartItems));
 }
 
+// Fonction pour changer la quantité d'un produit dans le panier
 window.changerQuantite = function(index, delta) {
     let cartItems = JSON.parse(localStorage.getItem('panier')) || [];
     cartItems[index].quantite += delta;
-
-    if (cartItems[index].quantite <= 0) {
+    // Supprime l'article si la quantité est réduite à zéro ou moins
+        if (cartItems[index].quantite <= 0) {
         cartItems.splice(index, 1);
     }
     localStorage.setItem('panier', JSON.stringify(cartItems));
     chargerPanier();
 }
 
+// Fonction pour supprimer un produit du panier
 window.supprimerDuPanier = function(index) {
     const cartItems = JSON.parse(localStorage.getItem('panier')) || [];
     cartItems.splice(index, 1);

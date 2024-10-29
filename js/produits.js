@@ -23,11 +23,11 @@
             </section>
         `;
 
-        const data = await fetchData();
+        const data = await fetchData();// Récupération des données de produit
         if (data) {
-            afficherListeProduits(data);
-            initialiserFiltres(data);
-            initialiserEcouteFiltres(data, afficherListeProduits);
+            afficherListeProduits(data);// Affiche la liste complète des produits
+            initialiserFiltres(data);// Initialise les options de filtre pour la marque
+            initialiserEcouteFiltres(data, afficherListeProduits);// Ajoute des écouteurs pour les filtres
         }
     }
 

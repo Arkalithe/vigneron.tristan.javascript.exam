@@ -20,20 +20,17 @@ export async function afficherAccueil(container) {
 function afficherProduitsVedettes(data) {
     const featuredContainer = document.getElementById('featured-products');
 
+    // Vérification que le conteneur pour les produits vedettes existe
     if (!featuredContainer) {
         console.error('Container pour les produits vedettes non trouvé');
         return;
     }
 
-    // const vedettes = data.slice(0, 5);
-
     const featuredIds = [1, 3, 7, 12, 11];
     const vedettes = data.filter(produit => featuredIds.includes(produit.id));
     console.log(vedettes);
 
-    // const vedettes = data.filter(produit => produit.featured === true).splice(0, 5);
-
-
+    // Ajout d'un événement pour afficher les détails d'un produit
     vedettes.forEach(produit => {
         const card = document.createElement('div');
         card.classList.add('card');

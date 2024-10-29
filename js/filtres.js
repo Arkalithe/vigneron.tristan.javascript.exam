@@ -4,18 +4,19 @@ export function appliquerFiltres(data, afficherListeProduits) {
     const prixFiltre = document.getElementById('filter-prix').value;
     let produitsFiltres = data;
 
-
+    // Filtre par nom de produit
     if (searchQuery) {
         produitsFiltres = produitsFiltres.filter(produit =>
             produit.nom_produit.toLowerCase().includes(searchQuery)
         );
     }
-
+    // Filtre par marque
     if (marqueFiltre) {
         produitsFiltres = produitsFiltres.filter(produit =>
             produit.nom_produit.startsWith(marqueFiltre)
         );
     }
+    // Filtre par gamme de prix
     if (prixFiltre) {
         produitsFiltres = produitsFiltres.filter(produit => {
             const prix = parseFloat(produit.prix.replace('€', '').trim());

@@ -1,5 +1,4 @@
 export function loadOrderForm(container) {
-
     displayOrderForm(container);
 }
 
@@ -49,6 +48,7 @@ function displayOrderForm(container) {
         const city = document.getElementById('city').value.trim();
         const contact = document.getElementById('contact').value.trim();
 
+        // Vérification des champs obligatoires et validation
         if (!firstName || !lastName || !streetNumber || !streetName || !postalCode || !city || !contact) {
             alert("Veuillez remplir tous les champs obligatoires.");
             return;
@@ -64,6 +64,7 @@ function displayOrderForm(container) {
 
         const additionalInfo = document.getElementById('additional-info').value.trim() || 'N/A';
 
+// Génération d'un numéro de commande unique
         const orderNumber = 'CMD-' + Math.floor(Math.random() * 1000000);
         const summary = document.getElementById('order-summary');
         summary.innerHTML = `

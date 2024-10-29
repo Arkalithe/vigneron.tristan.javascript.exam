@@ -4,6 +4,7 @@ export async function afficherDetailProduit(container, produitId, navigateBack) 
     const data = await fetchData();
     if (!data) return;
 
+    // Recherche du produit avec l'ID correspondant
     const produit = data.find(p => p.id === produitId);
     if (!produit) {
         container.innerHTML = "<p>Produit non trouvé</p>";
@@ -61,16 +62,15 @@ function afficherImagePleinEcran(images) {
         fullscreenImage.src = images[currentIndex];
     };
 
+    // Écouteurs d'événements pour la navigation
     fullscreenContainer.querySelector('.prev-button').addEventListener('click', () => {
         currentIndex = (currentIndex - 1 + images.length) % images.length;
         updateImage();
     });
-
     fullscreenContainer.querySelector('.next-button').addEventListener('click', () => {
         currentIndex = (currentIndex + 1) % images.length;
         updateImage();
     });
-
     fullscreenContainer.querySelector('.close-button').addEventListener('click', () => {
         document.body.removeChild(fullscreenContainer);
     });
@@ -86,6 +86,7 @@ function ajouterAuPanier(produit) {
     let cartItems = JSON.parse(localStorage.getItem('panier')) || [];
     const existingProductIndex = cartItems.findIndex(item => item.id === produit.id);
 
+    // Vérification si le produit est déjà dans le panier
     if (existingProductIndex !== -1) {
         cartItems[existingProductIndex].quantite += 1;
     } else {

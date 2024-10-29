@@ -22,7 +22,7 @@ export function chargerPage(page) {
     }
 }
 window.chargerPage = chargerPage;
-
+// Chargement initial de la page d'accueil après le DOM chargé
 document.addEventListener('DOMContentLoaded', () => {
     chargerPage('accueil');
 });
