@@ -32,7 +32,8 @@
     }
 
     function initialiserFiltres(data) {
-        const marques = [...new Set(data.map(produit => produit.nom_produit.split(' ')[0]))];
+        const marques = [...new Set(data.map(produit =>
+            produit.nom_produit.split(' ')[0]))];
 
         const filterMarque = document.getElementById('filter-marque');
         marques.forEach(marque => {

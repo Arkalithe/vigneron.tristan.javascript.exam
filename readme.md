@@ -14,7 +14,7 @@ Fonctionnalités
 Installation et Lancement
 
     Clonez le dépôt :
-        git clone https://github.com/Arkalithe/vigneron.tristan.javascript.exam
+        git clone https://github.com/Arkalithe/vigneron_tristan_javascript_exam.github.io
 
     Lancemment du Live Serveur.
         Dans votre Ide favoris (Vscode, Webstorm, ect...) faire un clique droite

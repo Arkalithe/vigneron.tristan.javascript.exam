@@ -2,8 +2,6 @@ import { afficherAccueil } from './index.js';
 import { afficherProduits } from './produits.js';
 import { afficherPanier } from './panier.js';
 
-
-
 export function chargerPage(page) {
     const content = document.getElementById('content');
     switch (page) {
